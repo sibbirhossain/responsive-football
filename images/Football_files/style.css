@@ -30,46 +30,14 @@ nav ul li a{
     text-decoration: none;
     color: white;
     font-weight: 400;
-    padding: 15px 20px;  
+    padding: 15px 23px;
+    
 }
 .login{
     width: 20%;
     margin-top: 35px;
 }
-.button{
+.login a{
     text-decoration: none;
     color: white;
-    padding: 8px 25px;
-    background-color: #e02d6c;
-}
-
-.button:hover{
-    background-color: #961c47;
-    
-}
-/*  =============================================
-                First Section
-    =============================================   */
-.flex-container{
-    display: flex;
-    background-color: #2d26a0;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
-}
-.half-width{
-    width: 50%;
-}
-.half-width h1{
-    color: white;
-    font-size: 60px;
-    font-weight: 900;
-    line-height: 25px;
-}
-.first-section-text{
-    padding-left: 165px;
-}
-.half-width img{
-    width: 90%;
-    margin-left: -50px;
 }
