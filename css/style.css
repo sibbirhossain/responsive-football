@@ -192,7 +192,7 @@ nav ul li a:hover {
 .ranking-man-section{
     margin-right: 90px;
 }
-.rakning-woman-section{
+.ranking-woman-section{
     float: right;
 }
 table thead tr th{
@@ -330,3 +330,95 @@ td{
     padding: 5px;
     font-size: 18px;
 }
+
+/*  =============================================
+                Media Query Section
+    =============================================   */
+
+    /* For Mobile Device   */
+
+@media only screen and (max-width:688px) {
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .nav{
+        display: none;   
+    }
+    .login{
+       width: 100%;
+       margin-left: 250px;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .first-section-text h1{
+        padding-left: 5px;
+        font-size: 30px;
+        font-weight:800;
+        line-height: 25px;
+        margin-left:-80px;
+    }
+    .first-section-text a{
+        margin-top: 5px;
+        margin-left: -80px;
+        margin-bottom: 20px;
+    }
+    .half-width>img{
+        width: 150%;
+        margin-left: 56px;
+        margin-top: 48px;
+    }
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin: 20px;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .highlight-section{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .highlight-content{
+        padding: 0px 00px 10px 10px;
+        /* margin-left: 50px; */
+        margin-right: 20px;
+        width: 90%;
+    }
+    .highlight-content>h1 {
+        font-size: 20px;
+        width: 50%;
+        display: inline-block;
+       
+    }
+    .ranking-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .ranking-container p{
+        padding: 0;
+        text-align: justify;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        white-space: initial;
+    }
+    .ranking-man-section .points{
+        /* margin: 15px; */
+        padding-left: 2px;
+    }
+    .ranking-woman-section .points{
+        padding-left: 0px;
+       
+    }
+    .partner-image{
+        width: 80%;
+        margin: 0px;
+    }
+}
+    
