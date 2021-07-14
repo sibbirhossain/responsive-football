@@ -38,6 +38,12 @@ nav ul li a{
     font-weight: 400;
     padding: 15px 20px;  
 }
+nav ul li a:hover {
+    background-color: white;
+    color: #2d26a0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 .login{
     width: 20%;
     margin-top: 35px;
@@ -312,4 +318,15 @@ td{
 .footer-section p{
     margin-left: 20px;
     color: #717171;
+    font-size: 15px;
+}
+#copyright-football{
+    color: #2d26a0;
+}
+#copyright-football:hover {
+    background-color: #2d26a0;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 18px;
 }
