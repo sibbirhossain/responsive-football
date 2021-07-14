@@ -47,6 +47,7 @@ nav ul li a{
     background-color: #961c47;
     
 }
+
 /*  =============================================
                 First Section
     =============================================   */
@@ -81,7 +82,7 @@ nav ul li a{
     =============================================   */
 .card-container{
     display: grid;
-    grid-template-columns: repeat(3, 5fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-left: 160px;
     margin-right: 150px;
     margin-top: 50px;
@@ -108,7 +109,7 @@ nav ul li a{
                 Highlight Section
     =============================================   */
 .highlight-section{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .highlight-content{
     padding: 60px 7px 10px 103px;
@@ -128,4 +129,49 @@ nav ul li a{
 .highlight-image img{
     width: 80%;
     margin-left: 30px;
+}
+/*  =============================================
+                World Ranking Section
+    =============================================   */
+.ranking-container{
+    display: flex;
+    border: 1px solid black;
+    
+}
+.ranking-text-section{
+    width: 20%;
+    border: 1px dashed blue;
+}
+.ranking-table section{
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed tomato;
+}
+.ranking-man-section{
+    
+    border: 1px dashed red;
+}
+.rakning-woman-section{
+    
+    float: right;
+   border: 1px dashed rebeccapurple;
+}
+
+table tbody tr td div {
+    display: flex;
+}
+table tbody tr td div img {
+    width: 70px;
+    height: 46px;
+    padding: 10px 20px 35px 5px;
+    margin-left: 20px;
+}
+table tbody tr td div span {
+    margin-top: 18px ;
+    margin-right: 130px;
+    font-size: 20px;
+}
+.points{
+    padding-left: 20px;
+    font-size: 20px;
 }
