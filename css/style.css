@@ -1,13 +1,19 @@
 /*  =============================================
                        Body 
     =============================================   */
+
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+
 /*  =============================================
                        Header
     =============================================   */
+
+
 .flex-container {
     display: flex;
     
@@ -48,9 +54,12 @@ nav ul li a{
     
 }
 
+
 /*  =============================================
                 First Section
     =============================================   */
+
+
 .flex-container{
     display: flex;
 }
@@ -77,9 +86,13 @@ nav ul li a{
     width: 90%;
     margin-left: -50px;
 }
+
+
 /*  =============================================
                     Card Section
     =============================================   */
+
+
 .card-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -105,9 +118,13 @@ nav ul li a{
 .card:hover{
     box-shadow: 10px 10px 50px #717171;
 }
+
+
 /*  =============================================
                 Highlight Section
     =============================================   */
+
+
 .highlight-section{
     margin-top: 120px;
 }
@@ -130,48 +147,169 @@ nav ul li a{
     width: 80%;
     margin-left: 30px;
 }
+
+
 /*  =============================================
                 World Ranking Section
     =============================================   */
+
+
 .ranking-container{
     display: flex;
-    border: 1px solid black;
-    
+    margin-top: 150px;
+    margin-bottom: 120px;    
 }
+
 .ranking-text-section{
-    width: 20%;
-    border: 1px dashed blue;
+    width: 25%;
+    padding-left: 20px;
+}
+.ranking-h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-top: 110px;
+    color: #000f2c;
+}
+#rank-p{
+    margin-left: 25px;
+    color: #717171;
+    padding-right: 30px;
+}
+.ranking-h2 {
+    font-weight: 500;
 }
 .ranking-table section{
     display: flex;
     flex-direction: column;
-    border: 1px dashed tomato;
 }
 .ranking-man-section{
-    
-    border: 1px dashed red;
+    margin-right: 90px;
 }
 .rakning-woman-section{
-    
     float: right;
-   border: 1px dashed rebeccapurple;
 }
-
+table thead tr th{
+    color: #a5abb7;
+    font-weight: 100;
+}
 table tbody tr td div {
     display: flex;
 }
 table tbody tr td div img {
     width: 70px;
     height: 46px;
-    padding: 10px 20px 35px 5px;
+    padding: 22px 20px 25px 5px;
     margin-left: 20px;
+
 }
 table tbody tr td div span {
-    margin-top: 18px ;
-    margin-right: 130px;
-    font-size: 20px;
+    margin-top: 35px ;
+    margin-right: 110px;
+    font-size: 15px;
 }
 .points{
     padding-left: 20px;
+    font-size: 15px;
+}
+
+td{
+    border-bottom: 1px solid lightgray;
+}
+
+
+/*  =============================================
+                Partner Section
+    =============================================   */
+
+
+.partner-section{
+    border-top: 2px solid #e4e8ef;
+    border-bottom: 2px solid #e4e8ef;
+}
+
+#partners-h3{
+    text-align: center;
+}
+
+.partner-image img{
+    padding-left: 80px;
+}
+#partner-img-1{
+    margin-left: 70px;
+}
+
+/*  =============================================
+                Footer Section
+    =============================================   */
+
+.footer-section {
+    text-align: center;
+}
+.footer-section img{
+    width: 290px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+.footer-icon{
+    margin-left: 20px;
     font-size: 20px;
+}
+.footer-icon a i{
+  background-color: #eaeaea;
+  margin-left: 10px;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+#instagram{
+    color: #d8666d; 
+}
+#facebook{
+   color: #0b84ed;
+}
+#twitter{
+    color: #1ea1f1;
+}
+#youtube{
+    color: #ff0102;
+}
+
+#instagram:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b53e97+9,b53e97+25,f88a42+100 */
+    background: #b53e97;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #b53e97 9%, #b53e97 25%, #f88a42 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #b53e97 9%, #b53e97 25%, #f88a42 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #b53e97 9%, #b53e97 25%, #f88a42 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b53e97', endColorstr='#f88a42', GradientType=0);
+    /* IE6-9 */
+
+    color: white;
+    
+}
+
+#facebook:hover{
+    background-color: #0b84ed;
+    color: white;
+    
+}
+
+#twitter:hover{
+    background-color: #1ea1f1;
+    color: white;
+    
+}
+
+#youtube:hover{
+    background-color: #ff0102;
+    color: white;
+    
+}
+.footer-section p{
+    margin-left: 20px;
+    color: #717171;
 }
