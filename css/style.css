@@ -461,34 +461,3 @@ td{
     }
 }
 
-@media only screen and (min-width:688px) and (max-width:992px) {
-    .first-section-text h1 {
-        padding-left: 5px;
-        font-size: 30px;
-        font-weight: 800;
-        line-height: 25px;
-        margin-left: -80px;
-    }
-
-    .first-section-text a {
-        margin-top: 5px;
-        margin-left: -80px;
-        margin-bottom: 20px;
-    }
-
-    .card-container {
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        margin: 20px;
-    }
-
-    .ranking-container {
-        flex-direction: column;
-    }
-
-    .partner-image {
-        flex-direction: column;
-        width: 40%;
-        margin: auto;
-    }
-}
